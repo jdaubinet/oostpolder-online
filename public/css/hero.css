@@ -13,6 +13,14 @@ html,body {
     padding-top: 2rem;
     line-height: 1.5;
 }
+
+.hero-brand {
+    background: url('/logo.png') no-repeat center center fixed;
+}
+
+.padding-0 {
+    padding: 0;
+}
 .features {
     padding: 5rem 0;
 }
