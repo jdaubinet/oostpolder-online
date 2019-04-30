@@ -15,7 +15,9 @@ html,body {
 }
 
 .hero-brand {
-    background: url('/logo.png') no-repeat center center fixed;
+    background: url('/gebouw.jpg') no-repeat center center fixed;
+    position: absolute;
+    left: 100px;
 }
 
 .padding-0 {

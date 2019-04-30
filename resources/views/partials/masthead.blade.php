@@ -16,14 +16,4 @@
             </div>
         </nav>
     </div>
-    <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    {{--Welkom bij BW Oostpolder--}}
-                </h1>
-                <h2 class="subtitle">
-                    {{--BW Oostpolder is een beschermde woonvorm in de gemeente Papendrecht--}}
-                </h2>
-            </div>
-    </div>
 </section>
