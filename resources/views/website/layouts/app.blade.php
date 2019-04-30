@@ -6,7 +6,6 @@
 <body>
 @include('partials.masthead')
 
-
     <div class="box cta">
         <p class="has-text-centered">
             @include('partials.navbar')
@@ -30,7 +29,7 @@
                         <div class="card-image has-text-centered">
                             <i class="fa fa-question"></i>
                         </div>
-                        <div class="card-content">
+                        <div class="card-content has-text-centered">
                             <div class="content">
                                 <h4>Wat is BW Oostpolder?</h4>
                             </div>
@@ -45,8 +44,8 @@
                         <div class="card-image has-text-centered">
                             <i class="fa fa-empire"></i>
                         </div>
-                        <div class="card-content">
-                            <div class="content">
+                        <div class="card-content has-text-centered">
+                            <div class="content text-center">
                                 <h4>Dagbesteding</h4>
                             </div>
                         </div>
@@ -59,7 +58,7 @@
                         <div class="card-image has-text-centered">
                             <i class="fa fa-apple"></i>
                         </div>
-                        <div class="card-content">
+                        <div class="card-content has-text-centered">
                             <div class="content">
                                 <h4>Praktische Informatie</h4>
                             </div>
