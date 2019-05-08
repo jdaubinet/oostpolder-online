@@ -19,7 +19,7 @@ class CreateMenusTable extends Migration
             $table->string('description');
 
             $table->timestamp('served_at');
-            $table->timestamp('closed_at');
+            $table->timestamp('closed_at')->nullable();
 
             $table->timestamps();
             $table->softDeletes();
