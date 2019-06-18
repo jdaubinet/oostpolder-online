@@ -24,7 +24,6 @@
         "barryvdh/laravel-ide-helper": "^2.4",
         "codedungeon/phpunit-result-printer": "0.25.0",
         "friendsofphp/php-cs-fixer": "^2.11",
-        "laravel/dusk": "^5.0",
         "laravel/homestead": "^8.0",
         "laravel/telescope": "^1.0",
         "nunomaduro/larastan": "^0.3.1",
