@@ -21,7 +21,6 @@ $factory->define(\App\Models\Menu::class, function (Faker $faker) {
 
     $description = "{$faker->randomElement($prefix)} {$faker->randomElement($maindishes)} {$faker->randomElement($addons)} {$faker->randomElement($deserts)} ";
 
-    dump(str_replace('  ', ' ', trim($description)) . '.');
     return [
         'description' => str_replace('  ', ' ', trim($description)) . '.',
         'closed_at' => \Carbon\Carbon::createFromTimestamp($faker->dateTime->getTimestamp())->toDateTimeString(),
